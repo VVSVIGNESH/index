@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans' , sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width:  100%;
+    background-image: url('backgr.jpeg');
+    background-size: cover;
+    background-position: center;
+
+}
+.logo{
+    color: rgb(0,0,0);
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 0px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: rgb(255, 255, 255);
+
+}
+.mail{
+    background-color: red;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 0.45s;
+    margin-left: 850px;
+    bottom: 100px;
+    box-shadow: 5px 5px 5px black;
+
+}
+.mail:hover{
+    opacity: 0.75;
+    background-color: yellow;
+}
+.mail:active{
+    opacity: 0.5;
+}
+.phone{
+    background-color: rgb(57, 226, 57);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 0.45s;
+    margin-right: 0px;
+    margin-left: 1200px;
+    top: 30%;
+    box-shadow: 5px 5px 5px black;
+}
+.phone:hover{
+    opacity: 0.75;
+    background-color: yellow;
+}
+.phone:active{
+    opacity: 0.5;
+}
+
+.fa-solid fa-phone{
+    background-color: rgb(32, 86, 233);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.Content{ 
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+
+}
+
+h2{
+    color: rgb(37, 218, 238);
+    margin: 10px 0px 20px;
+    font-size: 50px;
+}
+.resume{
+    margin-left: 330px;
+}
+.text{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(60, 215, 60);
+    margin-left: 5px;
+    bottom: 10px;
+}
+.images{
+    position: absolute;
+    height: 45%;
+    width: 80%;
+    bottom: 0;
+    right: 360px;
+    margin-top: 400px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 80%;
+    bottom: 80;
+    transform: translateX(-50%);
+    transform: translateY(-70%);
+}
+.cont{
+    margin-right: 50px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(197, 24, 128);
+}
+.about img{
+    position: absolute;
+    height: 600px;
+    width: 650px;
+    margin-left: 250px;
+    margin-top: 350px;
+    margin-bottom: 350px;
+  
+
+}
+.about-text{
+    width: 550px;
+    text-align: left;
+    margin-right: 200px;
+}
+.main{
+    width: 1500px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h5{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+
+}
+.about-text p{
+    color:rgb(0, 0, 0);
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.third-sec{
+    background-color: black;
+}
+.my-skills{
+    color: yellow;
+    font-weight: bold;
+    font-size: 75px;
+    cursor: pointer;
+    text-align: center;
+}
+.C-icon{
+    height: 250px;
+    width: 250px;
+    margin-left: 100px;
+}
+.H-icon{
+    height: 250px;
+    width: 250px;
+    margin-left: 100px;
+}
+.CSS-icon{
+    height: 250px;
+    width: 250px;
+    margin-left: 100px;
+}
+.python-icon{
+    height: 250px;
+    width: 250px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.forth-sec{
+    background-color: rgb(237, 234, 5);
+
+}
+.heading4{
+    color: rgb(205, 62, 86);
+    font-size: 50px;
+    font-weight: bold;
+}
+.para{
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.contact-info{
+    color: #e47f37;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.fa-brands{
+    text-align: center;
+    background-color: #378ee4;
+    color: white;
+    margin-left: 10px;
+    padding: 20px;
+    width: 55px;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
