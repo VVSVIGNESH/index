@@ -59,7 +59,7 @@ span{
     cursor: pointer;
     transition: opacity 0.45s;
     margin-right: 0px;
-    margin-left: 82%;
+    margin-left: 70%;
     top: 30%;
     box-shadow: 5px 5px 5px black;
 }
@@ -99,7 +99,7 @@ h2{
 .text{
     font-size: 20px;
     font-weight: bold;
-    color: rgb(60, 215, 60);
+    color: black;
     margin-left: 5px;
     bottom: 10px;
 }
@@ -114,8 +114,8 @@ h2{
 .images img{
     height: 100%;
     position: relative;
-    left: 80%;
-    bottom: 80;
+    left: 70%;
+    top: 70%;
     transform: translateX(-50%);
     transform: translateY(-70%);
 }
